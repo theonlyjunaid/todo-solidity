@@ -13,7 +13,7 @@ export default function Home() {
     const connectToMetamask = async () => {
       try {
         if (typeof window.ethereum !== 'undefined') {
-          await window.ethereum.request({ method: 'eth_requestAccounts' })
+          await window.ethereum.request({ method: 'eth_requestAccounts' } )
         }
         if (window.ethereum) {
           const provider = new ethers.providers.Web3Provider(window.ethereum)
