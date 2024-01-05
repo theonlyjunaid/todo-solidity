@@ -1,5 +1,4 @@
-// export const API_URL = 'https://sepolia.infura.io/v3/';
-// export const PRIVATE_KEY = '99e5ddcb22c3e2ddd99edf637961329b2331bfa90a7a2517d7b38f2c16166b7a';
+
 export const contractAddress="0x87E8B831B2A0CEA7ba2f86C0B354995fc6875519";
 export const contractABI = [
 	{
